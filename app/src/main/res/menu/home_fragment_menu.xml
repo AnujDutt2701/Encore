@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".ui.activity.HomeActivity">
+
+    <item
+            android:id="@+id/action_search"
+            android:orderInCategory="200"
+            android:title="@string/home_menu_label_search"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/ic_search_24dp"/>
+
+    <item
+            android:id="@+id/action_sort_order"
+            android:orderInCategory="110"
+            android:title="@string/home_menu_label_sort_order"
+            app:showAsAction="never"/>
+
+    <item
+            android:id="@+id/action_settings"
+            android:orderInCategory="200"
+            android:title="@string/home_menu_label_settings"
+            app:showAsAction="never"/>
+
+</menu>

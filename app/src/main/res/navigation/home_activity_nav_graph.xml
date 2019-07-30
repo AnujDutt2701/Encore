@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/homeFragment">
+
+    <fragment android:id="@+id/homeFragment"
+              android:name="com.alacritystudios.encore.ui.fragment.home.HomeFragment"
+              android:label="home_fragment"
+              tools:layout="@layout/home_fragment">
+
+        <action android:id="@+id/action_homeFragment_to_artistsFragment" app:destination="@id/artistsFragment"/>
+
+        <action android:id="@+id/action_homeFragment_to_albumsFragment" app:destination="@id/albumsFragment"/>
+
+        <action android:id="@+id/action_homeFragment_to_songsFragment" app:destination="@id/songsFragment"/>
+    </fragment>
+
+    <fragment android:id="@+id/songsFragment"
+              android:name="com.alacritystudios.encore.ui.fragment.songs.SongsFragment"
+              android:label="songs_fragment"
+              tools:layout="@layout/songs_fragment">
+    </fragment>
+
+    <fragment android:id="@+id/albumsFragment"
+              android:name="com.alacritystudios.encore.ui.fragment.albums.AlbumsFragment"
+              android:label="albums_fragment"
+              tools:layout="@layout/albums_fragment">
+    </fragment>
+
+    <fragment android:id="@+id/artistsFragment"
+              android:name="com.alacritystudios.encore.ui.fragment.artists.ArtistsFragment"
+              android:label="artists_fragment"
+              tools:layout="@layout/artists_fragment">
+    </fragment>
+</navigation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable name="item" type="com.alacritystudios.encore.data.domain.HomeItem"/>
+        <variable name="onClickListener"
+                  type="com.alacritystudios.encore.ui.adapter.HomeItemsAdapter.HomeItemsAdapterOnClickListener"/>
+    </data>
+
+    <LinearLayout
+            android:background="?attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:focusable="true"
+            android:clickable="true"
+            android:onClick="@{ () -> onClickListener.onItemClick(item.type)}">
+
+        <TextView
+                style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:text="@{item.link}"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</layout>

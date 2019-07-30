@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Encore</string>
+
+
+    <!-- Home link labels -->
+    <string name="home_link_label_playlists">Playlists</string>
+    <string name="home_link_label_artists">Artists</string>
+    <string name="home_link_label_albums">Albums</string>
+    <string name="home_link_label_genres">Genres</string>
+    <string name="home_link_label_songs">Songs</string>
+
+
+    <!-- Menu labels -->
+    <string name="home_menu_label_search">Search</string>
+    <string name="home_menu_label_settings">Settings</string>
+    <string name="home_menu_label_sort_order">Sort order</string>
+    <string name="home_menu_label_sort_order_artist">Artists</string>
+    <string name="home_menu_label_sort_order_song">Songs</string>
+
+
+    <!--Toolbar titles-->
+    <string name="home_fragment_title">Library</string>
+    <string name="songs_fragment_title">Songs</string>
+    <string name="artists_fragment_title">Artists</string>
+    <string name="albums_fragment_title">Albums</string>
+    <string name="playlists_fragment_title">Playlists</string>
+    <string name="genres_fragment_title">Genres</string>
+
+    <!--Bottom sheet titles-->
+    <string name="sort_order_title">Sort Order</string>
+
+
+
+    <!--Bottom sheet options-->
+    <string name="sort_order_artists">Artists</string>
+    <string name="sort_order_songs">Songs</string>
+
+
+
+    <!--Home fragment strings-->
+    <string name="recently_added_section_title">Recently added</string>
+
+
+    <!-- Shrine backdrop menu labels -->
+    <string name="shr_featured_label">Featured</string>
+    <string name="shr_apartment_label">Apartment</string>
+    <string name="shr_accessories_label">Accessories</string>
+    <string name="shr_shoes_label">Shoes</string>
+    <string name="shr_tops_label">Tops</string>
+    <string name="shr_bottoms_label">Bottoms</string>
+    <string name="shr_dresses_label">Dresses</string>
+    <string name="shr_account_label">My Account</string>
+    <string name="shr_logo_content_description">Shrine Logo</string>
+
+</resources>
